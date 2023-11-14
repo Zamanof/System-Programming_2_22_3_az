@@ -25,9 +25,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SP03 Thread vs ThreadPool",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SP04", "SP04", "{74E04527-68BD-4967-825F-C56B4F10CDD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP04 out ref", "SP04 out ref\SP04 out ref.csproj", "{60AEF9DF-6957-497F-B87D-310AC929CF45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SP04 out ref", "SP04 out ref\SP04 out ref.csproj", "{60AEF9DF-6957-497F-B87D-310AC929CF45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP04 Interlocked, monitor, lock", "SP04 Interlocked, monitor, lock\SP04 Interlocked, monitor, lock.csproj", "{A42F5003-5F30-4E56-9F80-DE6353A029C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SP04 Interlocked, monitor, lock", "SP04 Interlocked, monitor, lock\SP04 Interlocked, monitor, lock.csproj", "{A42F5003-5F30-4E56-9F80-DE6353A029C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 05. Deadlock", "SP 05. Deadlock\SP 05. Deadlock.csproj", "{23CF4D97-3EF3-456E-A2CE-CB40D213EFF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SP05", "SP05", "{4309C9BC-9F48-41FD-ACA6-64DBB1A56BF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP05. Mutex, Semaphore, SemaphoreSlim", "SP05. Mutex, Semaphore, SemaphoreSlim\SP05. Mutex, Semaphore, SemaphoreSlim.csproj", "{44377AC0-78AB-4A0C-BEC6-E71F92B7577C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +77,14 @@ Global
 		{A42F5003-5F30-4E56-9F80-DE6353A029C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A42F5003-5F30-4E56-9F80-DE6353A029C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A42F5003-5F30-4E56-9F80-DE6353A029C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23CF4D97-3EF3-456E-A2CE-CB40D213EFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CF4D97-3EF3-456E-A2CE-CB40D213EFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CF4D97-3EF3-456E-A2CE-CB40D213EFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CF4D97-3EF3-456E-A2CE-CB40D213EFF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44377AC0-78AB-4A0C-BEC6-E71F92B7577C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44377AC0-78AB-4A0C-BEC6-E71F92B7577C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44377AC0-78AB-4A0C-BEC6-E71F92B7577C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44377AC0-78AB-4A0C-BEC6-E71F92B7577C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +99,8 @@ Global
 		{86C52A47-A476-45FE-A9D8-48D60B4FF9BD} = {6AFCA763-359F-40C3-BA17-4084A88C3219}
 		{60AEF9DF-6957-497F-B87D-310AC929CF45} = {74E04527-68BD-4967-825F-C56B4F10CDD1}
 		{A42F5003-5F30-4E56-9F80-DE6353A029C8} = {74E04527-68BD-4967-825F-C56B4F10CDD1}
+		{23CF4D97-3EF3-456E-A2CE-CB40D213EFF7} = {4309C9BC-9F48-41FD-ACA6-64DBB1A56BF9}
+		{44377AC0-78AB-4A0C-BEC6-E71F92B7577C} = {4309C9BC-9F48-41FD-ACA6-64DBB1A56BF9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EA32E15-D928-47BB-BD0A-FC4D8E87CBAF}

@@ -7,7 +7,7 @@ Thread thread1 = new Thread(() =>
     }    
 });
 //thread1.Priority = ThreadPriority.Highest;
-thread1.IsBackground = true;
+//thread1.IsBackground = true;
 thread1.Start();
 
 //new Thread(() =>
