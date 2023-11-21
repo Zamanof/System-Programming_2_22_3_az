@@ -37,4 +37,3 @@ Id - {Thread.CurrentThread.ManagedThreadId}
 IsThreadPool - {Thread.CurrentThread.IsThreadPoolThread}
 {new String('_', 25)}");
 }
-
